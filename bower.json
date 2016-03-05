@@ -1,0 +1,19 @@
+{
+  "name": "html5-template-bower-dist",
+  "description": "",
+  "main": "index.html",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.11.2",
+    "jquery": "^2.2.0"
+  }
+}
