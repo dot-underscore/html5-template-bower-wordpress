@@ -88,8 +88,7 @@ gulp.task('watch', function() {
     gulp.watch('assets/scss/*.scss', ['sass']);
     gulp.watch('assets/img/icons/*.svg', ['font']);
     gulp.watch('assets/js/min/lib.min.js', ['scripts']);
-    gulp.watch('index.*', reload);
-
+    gulp.watch('*.php', reload);    
 });
 
 //Start browser sync server
