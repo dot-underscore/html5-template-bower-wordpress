@@ -11,8 +11,7 @@
 	<link type="text/css" rel="stylesheet" href="<?php bloginfo(stylesheet_url); ?>" media="screen">
 
     <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo ('name'); ?></title>
-    <link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/global.css" media="screen">
-
+    <link type="text/css" rel="stylesheet" href="<?php asset_dir(); ?>/css/layout.css" media="screen">
 
 	<?php wp_head();?>
 </head>
